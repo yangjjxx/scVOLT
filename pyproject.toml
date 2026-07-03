@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "scvolt"
+version = "1.0.0"
+description = "scVOLT model for drug response prediction"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy",
+    "pandas",
+    "torch",
+    "scipy",
+    "scikit-learn",
+    "tqdm",
+    "pyreadr",
+]
+
+[project.optional-dependencies]
+analysis = [
+    "anndata",
+    "scanpy",
+    "matplotlib",
+    "seaborn",
+    "gseapy",
+    "openpyxl",
+    "jupyter",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+scvolt = [
+    "resources/**/*.rds",
+    "resources/**/*.txt",
+    "resources/**/*.zip",
+]

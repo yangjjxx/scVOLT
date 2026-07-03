@@ -1,0 +1,36 @@
+# Python packaging and cache
+build/
+dist/
+*.egg-info/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Local environments
+.venv/
+venv/
+.env
+
+# IDE and OS metadata
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Notebook checkpoints and generated outputs
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+results/*
+!results/README.md
+R scripts/figures/
+
+# Large/local analysis data
+data/*
+!data/README.md
+
+# R session artifacts
+.RData
+.Rhistory
+R scripts/.RData
+R scripts/.Rhistory
