@@ -111,4 +111,4 @@ Notebook outputs should be cleared before upload unless the venue explicitly ask
 
 ## License
 
-During anonymous review, use and redistribution follow the conference policy for code availability and anonymized supplemental material. A formal open-source license can be added for the public release.
+During anonymous review, use and redistribution follow the conference policy for code availability and anonymized supplemental material. A formal open-source license will be added for the public release.
