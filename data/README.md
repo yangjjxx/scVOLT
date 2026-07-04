@@ -1,6 +1,6 @@
 # Data Directory
 
-The processed data files are provided separately from this code repository through the [Figshare private link](https://figshare.com/s/4ce6b177cd5f04ea7cba). To keep the repository lightweight, the large processed data files are not committed to GitHub.
+The processed data files are provided separately from this code repository through the [Figshare private link](https://figshare.com/s/37f5b9366a8ec689c8dd). To keep the repository lightweight, the large processed data files are not committed to GitHub.
 
 After downloading the data archive, place it in the root directory of this repository and run:
 

@@ -15,7 +15,7 @@ scVOLT first identifies drug response-related genes from bulk pharmacogenomic re
 - `src/scvolt/`: installable Python package and bundled bulk resources/signature genes.
 - `analyses/`: notebooks for single-cell benchmark, time-course, and spatial analyses.
 - `R scripts/`: R plotting scripts for paper figures.
-- `data/`: expected local input-data layout. Processed input data are provided through the [Figshare private link](https://figshare.com/s/4ce6b177cd5f04ea7cba) and are not committed to Git.
+- `data/`: expected local input-data layout. Processed input data are provided through the [Figshare private link](https://figshare.com/s/37f5b9366a8ec689c8dd) and are not committed to Git.
 - `results/`: generated analysis outputs and figure source tables. This directory is ignored by default.
 
 ## Installation
