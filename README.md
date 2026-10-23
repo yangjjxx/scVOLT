@@ -6,7 +6,8 @@ This repository provides the model implementation, bundled pharmacogenomic resou
 
 ## Model Overview
 
-![scVOLT model framework](docs/figures/scvolt_framework.png)
+![Uploading figure1_framework.png…]()
+
 
 scVOLT first identifies drug response-related genes from bulk pharmacogenomic resources, then learns OT-guided metagene representations that align bulk and target high-resolution profiles, and finally applies a bulk-trained ElasticNet response model to single-cell or spatial transcriptomic data.
 
