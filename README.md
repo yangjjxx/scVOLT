@@ -84,8 +84,6 @@ print(SCVOLTModel.get_drugs())
 
 ## Reproducing Paper Analyses
 
-Download the processed input data from the [Figshare private link](https://figshare.com/s/4ce6b177cd5f04ea7cba) and extract the archive at the repository root so that the `data/` layout matches `data/README.md`. The notebooks resolve paths from the project root and write generated outputs under `results/`:
-
 - `analyses/single_cell_prediction.ipynb`: benchmark single-cell drug-response datasets in `data/01_single_cell_prediction/`; writes metrics to `results/01_single_cell_prediction/`.
 - `analyses/time_series_analysis.ipynb`: Bortezomib time-course analysis for `GSE114461_Bortezomib.csv.gz`; writes scores to `results/02_time_series_analysis/`.
 - `analyses/spatial_analysis.ipynb`: spatial breast-cancer analysis using `V19L29-097.h5ad` and external GDSC2 Dasatinib response records; writes figures and tables to `results/03_spatial_analysis/`.
@@ -94,7 +92,7 @@ R scripts should be run from the `R scripts/` directory. They save PDF figures t
 
 ## Data Notes
 
-The package includes the processed CTRP/CCLE resources and CTRP drug-response gene signatures required by the model. The processed input datasets used by the analysis notebooks are available through the [Figshare private link](https://figshare.com/s/4ce6b177cd5f04ea7cba). File names, expected paths, sizes, and SHA256 checksums are documented in `data/README.md`.
+The package includes the processed CTRP/CCLE resources and CTRP drug-response gene signatures required by the model. The processed input datasets used by the analysis notebooks are available through the [Figshare private link](https://figshare.com/s/37f5b9366a8ec689c8dd). File names, expected paths, sizes, and SHA256 checksums are documented in `data/README.md`.
 
 The large processed data files are not committed to this repository. After downloading the data archive, extract it at the repository root so the `data/` directory contains the expected subdirectories.
 
