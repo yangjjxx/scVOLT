@@ -374,8 +374,10 @@ class MatrixFactorizationEncoder:
             loss -= self.mu[resolution] * utils.entropy(self.H[resolution], min_one=True)
 
         # Subtract the entropy penalty for W.
-        loss -= self.rho * utils.entropy(self.W, min_one=True)
-
+        loss -= (
+                self.n_resolutions * self.rho
+                * utils.entropy(self.W, min_one=True)
+        )
         return loss
 
     def loss_fn_h(self) -> torch.Tensor:
